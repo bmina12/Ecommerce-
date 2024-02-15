@@ -1,0 +1,85 @@
+.category-header p{
+    width: 40vw;
+}
+
+.categories-section{
+    margin-block: 80px;
+}
+
+.category{
+    margin-top: 15px;
+}
+
+
+.new-arrivals-header{
+    justify-content: space-between;
+}
+
+.slider{
+    gap: 10px;
+}
+
+.slider i{
+    cursor: pointer;
+}
+
+.arrivals-cards{
+    margin-top: 5px;
+    padding-block: 10px;
+    justify-content: space-between;
+}
+
+.arrivals-card{
+    overflow: hidden;
+    width: 270px;
+    /* min-height: 361px; */
+    border-radius: 9px 6px 0 0;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.arrivals-card:hover{
+    box-shadow: 0 0 10px #00000049;
+}
+
+.card-img{
+    padding: 15px;
+    background: #F6F7FB;
+}
+
+.card-img img{
+    width: 210px;
+    height: 150px;
+}
+
+.card-desc{
+    padding:15px 10px;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #15187517;
+}
+
+.product-name{
+    justify-content: space-between;
+}
+
+
+.card-btn{
+    background-color: var(--secondary-text-color);
+    color: white;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.card-btn:hover{
+    box-shadow: 0 0 5px #e72f7f;
+}
+
+.price{
+    margin-top: 10px;
+    color: var();
+}

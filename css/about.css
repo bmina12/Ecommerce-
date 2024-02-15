@@ -1,0 +1,52 @@
+.about-section{
+    margin-top: 80px;
+}
+
+.about-container{
+    gap: 50px;
+}
+
+.about-img img{
+    width: 440px;
+}
+
+.about-description{
+    text-align: left;
+    width: 30vw;
+}
+
+.company-features-section{
+    margin-block: 80px;
+}
+
+.company-features-section h2{
+    text-align: center;
+}
+
+.features-area{
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.features-card{
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 45px;
+    width: 270px;
+    height: 250px;
+    box-shadow: 0 0 9px #838181;
+    transition: 0.2s ease-out;
+}
+
+.features-card:hover{
+    cursor: pointer;
+    border-bottom: 4px solid #FF9100;
+}
+
+
+.features-card-desc{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
